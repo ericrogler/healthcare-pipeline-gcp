@@ -1,5 +1,5 @@
 # Healthcare Pipeline
-This project is a data engineer pipeline to analyze information within a general healthcare system. From here, it may be modified to fit specific use cases, scenarios, or find other types of information.
+This is a pipeline to analyze information within a general healthcare system. From here, it may be modified to fit specific use cases, scenarios, or find other types of information.
 
 ## Project Premise
 Let’s say you’re a patient and you’re feeling unwell, so you go to the hospital for treatment. You arrive at the location, you fill out the information, receive the treatment, then get discharged. That’s from the user perspective.
