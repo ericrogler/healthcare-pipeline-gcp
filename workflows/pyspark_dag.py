@@ -13,7 +13,7 @@ from airflow.providers.google.cloud.operators.dataproc import (
 PROJECT_ID = "project-439d8746-f595-4836-8dd.bronze_dataset"
 REGION = "us-central1"
 CLUSTER_NAME = "demo-instance" # Created through Google Cloud.
-COMPOSER_BUCKET = "us-central1-demo-instance-908471a2-bucket " ## Found within DAGs folder in Cluster 
+COMPOSER_BUCKET = "us-central1-demo-instance-908471a2-bucket" ## Found within DAGs folder in Cluster 
 
 # define jobs and file locations
 GCS_JOB_FILE_1 = f"gs://{COMPOSER_BUCKET}/data/INGESTION/hospitalA_mysqlToLanding.py"
