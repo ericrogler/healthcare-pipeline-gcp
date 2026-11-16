@@ -1,7 +1,7 @@
 # Healthcare Pipeline
-This is a pipeline to analyze information within a general healthcare system. From here, it may be modified to fit specific use cases, scenarios, or find other types of information.
+This is a pipeline to analyze information within a general healthcare system. From here, it may be modified and scaled up to fit specific use cases, scenarios, or find other types of information.
 
-## Project Premise
+## Premise
 Let’s say you’re a patient and you’re feeling unwell, so you go to the hospital for treatment. You arrive at the location, you fill out the information, receive the treatment, then get discharged. That’s from the user perspective.
 While the hospital provides treatment, it does so for a fee and needs to set up transactional data to collect fees from the patient. In the background, the cycle has extra steps involved:
 1. Patient Visit
@@ -11,12 +11,12 @@ While the hospital provides treatment, it does so for a fee and needs to set up 
 5. Payments & Follow-up
 6. Further Tracking & Improvement
 
-## Overview
-I’m building a data lake inside of Google Cloud Platform (GCP) catered to Revenue Cycle Management (RCM), that is scalable, in the healthcare domain. The goal is centralizing, cleaning, and transforming data from multiple sources, including patients, healthcare providers, and insurance companies.
+## Summary/Overview
+I’m building a data lake inside of Google Cloud Platform (GCP) catered to Revenue Cycle Management (RCM), that is scalable, in the healthcare domain. The goal is centralizing, cleaning, and transforming data from multiple sources, including patients, healthcare providers, and insurance companies to structure data for better analysis, and therefore improved healthcare for more patients, in the future.
 
-Data and Codes utilized are based around United States of America healthcare systems.
+Data and Codes utilized are based around United States of America healthcare systems. Workflow orchestration tools automate and update information going to ingestion and displayed information in visualizations.
 
-To explain the architecture briefly after the initial setup of sources:
+The process after the initial setup of sources:
 1. Ingestion
 2. Storage
 3. Processing
@@ -24,8 +24,6 @@ To explain the architecture briefly after the initial setup of sources:
 5. Pipelines
 6. Orchestration
 7. Visualization
-
-Workflow orchestration tools automate and update information going to ingestion and displayed information in visualizations.
 
 ## Services Used
 - GCS (Google Cloud Storage): Store raw/processed data.
@@ -41,7 +39,7 @@ Workflow orchestration tools automate and update information going to ingestion 
 - SCD Type 2
 - Incremental Loading
 - Common Data Model (CRM)
-- Medallion Architecture (Bronze, Silver; Gold layers)
+- Medallion Architecture (Bronze, Silver, & Gold layers)
 - Logging/Monitoring
 - Error Handling
 - CI/CD
